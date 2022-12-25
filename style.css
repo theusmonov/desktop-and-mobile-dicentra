@@ -1,0 +1,561 @@
+*{
+
+    list-style: none;
+}
+.dic-continer{
+    width: 750px;
+    margin: 0 auto;
+    /* border: 1px solid; */
+}
+header{
+    width: 100%;
+    height: 500px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid; */
+}
+.nav-logo{
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid; */
+}
+.nav-list{
+    width: 50%;
+  height: 100%;
+  /* border: 1px solid; */
+}
+.logos{
+    margin-top: 10px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+.lists{
+    margin-left: 100px;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+.qulf{
+    margin-left: 20px;
+}
+.hero{
+    display: flex;
+    width: 100%;
+    height: 90%;
+}
+.hero-text{
+    color: white;
+    width: 50%;
+    height: 100%;
+    background-color: #292933;
+}
+.hero-img{
+    width: 50%;
+    height: 100%;
+}
+.hero-text h1{
+    padding-top: 80px;
+    margin-left: 50px;
+}
+.hero-text p{
+    margin-left: 50px;
+}
+.hero-text button{
+    color: white;
+    background-color: #B69B89;
+    border-radius: 25px;
+    width: 160px;
+    height: 55px;
+    margin-left: 50px;
+}
+main{
+    width: 100%;
+    /* border: 1px solid; */
+}
+.main-text h3{
+    margin-left: 50px;
+    padding-top:50px ; 
+}
+.servis{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.servis-sekundi{
+    width: 297px;
+    height: 300px;
+    /* border: 1px solid; */
+}
+.vau-assartiment{
+    width: 297px;
+    height: 300px;
+    /* border: 1px solid; */
+}
+.nashii{
+    margin-top: 70px;
+    padding-top: 40px;
+    width: 100%;
+    height: 600px;
+    background-color: #F6F3F1;
+}
+.nashi{
+    width: 100%;
+}
+.nashi-best{
+    text-align: center;
+}
+.nashi-list{
+    display: flex;
+    gap: 30px;
+    margin-left: 180px;
+}
+.nashi-flower{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.flowers1{
+    text-align: center;
+    width: 175px;
+    height: 250px;
+    background-color: white;
+}
+.flower{
+    padding-top: 40px;
+   text-align: center;
+}
+.flowers1 button{
+    width: 130px;
+    height: 50px;
+    border-radius: 100px;
+    background-color:  #292933;
+    color: white;
+}
+.flowers1 h4{
+    font-weight: 100;
+}
+.flowers2{
+    text-align: center;
+    width: 175px;
+    height: 250px;
+    background-color: white;
+}
+.flowers2 button{
+    width: 130px;
+    height: 50px;
+    border-radius: 100px;
+    background-color:  #292933;
+    color: white;
+}
+.flowers2 h4{
+    font-weight: 100;
+}
+.flowers3{
+    text-align: center;
+    width: 175px;
+    height: 250px;
+    background-color: white;
+}
+.flowers3 button{
+    width: 130px;
+    height: 50px;
+    border-radius: 100px;
+    background-color:  #292933;
+    color: white;
+}
+.flowers3 h4{
+    font-weight: 100;
+}
+.flowers4{
+    text-align: center;
+    width: 175px;
+    height: 250px;
+    background-color: white;
+}
+.flowers4 button{
+    width: 130px;
+    height: 50px;
+    border-radius: 100px;
+    background-color:  #292933;
+    color: white;
+}
+.flowers4 h4{
+    font-weight: 100;
+}
+.sklads{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+}
+.sklad-shourm{
+    width:297px;
+    height:330px;
+    /* border: 1px solid; */
+}
+.florist{
+    width:297px;
+    height:350px;
+    /* border: 1px solid; */
+}
+.buket{
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 300px;
+    background-color: #292933;
+    background-image: url(./imgs/image\ \(Traced\).png);
+}
+.buttons{
+   text-align: center;
+}
+.buttons button{
+    width: 195px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+}
+.buttonn button{
+    margin-left: 5px;
+    width: 600px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #B69B89;
+    color: white;
+}
+.vmesti{
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 570px;
+    background-color:#F6F3F1;
+}
+.twogift{
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width:700px;
+    height: 400px;
+    background-color: white;
+}
+.a300{
+    font-weight: 100;
+    text-decoration: line-through;
+}
+.colflow{
+    text-align: center;
+}
+.rafaello{
+    text-align: center;
+}
+.vmesti p{
+    color: red;
+}
+.b14{
+    font-weight: 100;
+    text-decoration: line-through;
+}
+.tetxbtn{
+    margin-left: 150px;
+    display: flex;
+}
+.tetxbtn button{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 100px;
+    background-color:  #292933;
+    color: white;
+}
+.kviti{
+    width: 100%;
+}
+.kviti h3{
+    margin-left: 40px;
+}
+
+.kviti-boxs{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.kviti-boxs2{
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.insta{
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+}
+.text-insta{
+    margin-left: 20px;
+}
+.img-intsa{
+    margin-left: 50px;
+}
+.dostavka{
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;
+}
+.dostavka p{
+    font-weight: 100;
+    font-size: small;
+}
+.ptext2{
+    font-weight: 100;
+    font-size: small;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #292933;
+    background-image: url(./imgs/image\ \(Traced\).png);
+}
+.umumiy{
+    color: white;
+    justify-content: space-evenly;
+    display: flex;
+}
+.foottext3{
+    padding-top: 20px;
+}
+.foottext2{
+    padding-top: 20px;
+}
+.footicon{
+    gap: 10px;
+    display: flex;
+}
+.num1{
+    margin-left: -20px;
+   
+}
+.foottext4 button{
+    width: 257px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+@media only screen and (max-width:400px) {
+    .dic-continer{
+        width: 100%;
+    }
+    .logos{
+        margin-top: 10px;
+        margin-left: -30px;
+    }
+    .lists{
+        margin-left: -1px;
+    }
+    .qidiruv{
+        display: none;
+    }
+    .hero{
+        margin-top: 305px;
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        height: 400px;
+        width: 100%;
+    }
+    .hero-text{
+        text-align: center;
+        width: 100%;
+    }
+    .hero-text h1{
+      margin-right: 50px;
+    }
+    .hero-text p{
+        margin-right: 50px;
+      }
+      .hero-text button{
+        margin-bottom: 50px;
+        margin-right: 50px;
+      }
+      .main-text{
+        margin-top: 300px;
+      }
+      .servis{
+        width: 100%;
+      }
+      .vau-assartiment{
+        display: none;
+      }
+      .servis-sekundi{
+        width: 100%;
+        text-align: center;
+      }
+      .nashi-flower{
+        width: 100%;
+      }
+      .flowers3{
+        display: none;
+      }
+      .flowers4{
+        display: none;
+      }
+      .nashi-best{
+        width: 100%;
+      }
+      .miks{
+        display: none;
+      }
+      .nashi-list{
+      margin-left: -5px;
+      margin-left: 25px;
+      }
+      .sklads{
+        width: 100%;
+      }
+      .sklad-shourm{
+        display: none;
+      }
+      .buket{
+        height: 400px;
+        width: 100%;
+      }
+      .buket p{
+        display: none;
+      }
+      .buttons button{
+         width: 250px;
+         gap: 10px;
+         margin-top: 10px;
+      }
+      .buttonn button{
+        width: 250px;
+        margin-right: 5px;
+      }
+      .vmesti{
+        height: 900px; 
+        width: 100%;
+      }
+      .twogift{
+        height: 570px;
+        width: 100%;
+        margin-left: 0px;
+        flex-direction: column;
+      }
+      .tetxbtn{
+        width: 100%;
+      }
+      .texttt{
+        margin-left: -32px;
+      }
+      .tetxbtn button{
+        margin-top: 100px;
+        margin-left: -150px;
+      }
+      .kviti{
+        width: 100%;
+      }
+      .kviti-boxs{
+        flex-direction: column;
+        width: 100%;
+      }
+      .kviti-boxs2{
+        flex-direction: column;
+      }
+      .kviti-box{
+        width: 100%;
+      }
+      .kviti-box img{
+        width: 150px;
+      }
+      .kvitboxss{
+        text-align: center;
+        display: flex;
+      }
+      .kviti h3{
+        text-align: center;
+      }
+      .insta{
+        width: 100%;
+        flex-direction: column;
+      }
+      .instimg2{
+        display: none;
+      }
+      .img-intsa{
+        margin-left: 70px;
+      }
+      .text-insta{
+        margin-left: 70px;
+      }
+      .text-insta h3{
+        margin-left: 20px;
+      }
+      .text-insta p{
+        margin-left: 50px;
+      }
+      .dostavka{
+        width: 100%;
+      }
+      .ptext2{
+        display: none;
+      }
+      .dostavka p{
+        text-align: center;
+      }
+      footer{
+        height: 320px;
+        width: 100%;
+      }
+      .foottext2{
+        display: none;
+      }
+      .foottext3{
+        display: none;
+      }
+      .umumiy{
+        width: 100%;
+        flex-direction: column;
+      }
+      .foottext4{
+        text-align: center;
+      }
+     
+      
+
+   
+}
+    
+
+
+
